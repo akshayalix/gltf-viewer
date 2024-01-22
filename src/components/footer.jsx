@@ -17,7 +17,7 @@ export function Footer() {
 			<a
 				class="item"
 				target="_blank"
-				href="https://github.com/donmccurdy/three-gltf-viewer/issues/new"
+				href="https://github.com/akshayalix/gltf-viewer/issues/new"
 			>
 				help & feedback
 			</a>
@@ -26,7 +26,7 @@ export function Footer() {
 				|
 			</span>
 
-			<a class="item" target="_blank" href="https://github.com/donmccurdy/three-gltf-viewer">
+			<a class="item" target="_blank" href="https://github.com/akshayalix/gltf-viewer">
 				github
 			</a>
 		</footer>
