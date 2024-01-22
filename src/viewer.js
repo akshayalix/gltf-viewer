@@ -517,7 +517,7 @@ export class Viewer {
 	addGUI() {
 		const gui = (this.gui = new GUI({
 			autoPlace: false,
-			width: 260,
+			width: 300,
 			hideable: true,
 		}));
 
@@ -578,18 +578,20 @@ export class Viewer {
 		this.cameraFolder.domElement.style.display = 'none';
 
 		// Stats.
-		const perfFolder = gui.addFolder('Performance');
+		/*const perfFolder = gui.addFolder('Performance');          // Hiding Performance DropDown.
 		const perfLi = document.createElement('li');
 		this.stats.dom.style.position = 'static';
 		perfLi.appendChild(this.stats.dom);
 		perfLi.classList.add('gui-stats');
-		perfFolder.__ul.appendChild(perfLi);
+		perfFolder.__ul.appendChild(perfLi);*/
 
 		const guiWrap = document.createElement('div');
 		this.el.appendChild(guiWrap);
 		guiWrap.classList.add('gui-wrap');
 		guiWrap.appendChild(gui.domElement);
 		gui.open();
+
+		const testFolder = gui.addFolder('Test');
 	}
 
 	updateGUI() {
