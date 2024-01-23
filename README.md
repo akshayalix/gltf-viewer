@@ -9,7 +9,6 @@ Viewer:
 ```
 npm install
 npm run dev
-
 ```
 
 ## glTF 2.0 Resources
