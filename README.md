@@ -4,13 +4,12 @@ Preview glTF 2.0 models in WebGL using three.js and a drag-and-drop interface.
 
 Viewer: 
 
-![screenshot](*)
-
 ## Quickstart
 
 ```
 npm install
 npm run dev
+
 ```
 
 ## glTF 2.0 Resources
