@@ -2,7 +2,7 @@ html, body {
   margin: 0;
   padding: 0;
   font-family: 'Raleway', sans-serif;
-  background: #191919;
+  background: #1b1b1b;
   height: 100%;
   overflow: hidden;
 }
@@ -34,7 +34,7 @@ body {
 .placeholder {
   width: 100%;
   max-width: 500px;
-  border-radius: 0.5em;
+  border-radius: 30px;
   background: #252525;
   padding: 2em;
   text-align: center;
@@ -75,7 +75,7 @@ header {
   display: flex;
   background: #353535;
   padding: 0 2em;
-  height: 4rem;
+  height: 3.5rem;
   line-height: 4rem;
   align-items: center;
   overflow-x: auto;
@@ -175,7 +175,7 @@ footer .separator {
 .upload-btn label {
   color: #808080;
   border: 0;
-  border-radius: 3px;
+  border-radius: 10px;
   transition: ease 0.2s background;
   font-size: 1rem;
   font-weight: 700;
