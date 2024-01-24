@@ -591,7 +591,6 @@ export class Viewer {
 		guiWrap.appendChild(gui.domElement);
 		gui.open();
 
-		const testFolder = gui.addFolder('Test');
 	}
 
 	updateGUI() {
