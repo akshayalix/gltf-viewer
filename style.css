@@ -74,7 +74,7 @@ body {
 .gui-wrap {
   position: absolute;
   top: 0;
-  right: 0;
+  right: 20px;
   bottom: 0;
   pointer-events: none;
 }
